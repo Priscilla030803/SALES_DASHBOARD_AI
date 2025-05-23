@@ -101,7 +101,7 @@ df = load_data()
 
 # --- Sidebar - Filters ---
 try:
-    st.sidebar.image("logo.png", width=150)  # Adjust width for sidebar
+    st.sidebar.image("LOGO.png", width=150)  # Adjust width for sidebar
 except FileNotFoundError:
     st.sidebar.warning("Logo file 'logo.png' not found. Please ensure the file is in the correct directory.")
 
